@@ -3,7 +3,8 @@
 
 **Inspiration:** UPenn DMD and CGGT alumnus Nop Jiarathanakul's [Particle Dream application](http://www.iamnop.com/particles/).
 
-## [Demo Link]()
+## [Demo Link](https://hanmingzhang.github.io/ParticleSystem/)
+  **Please wait for seconds for obj loading when you first open the link**(because there are around 80,000 vertices)
 
 ## Screenshots
 
