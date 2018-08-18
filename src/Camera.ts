@@ -1,5 +1,8 @@
-import * as CameraControls from '3d-view-controls';
+// import * as CameraControls from '3d-view-controls';
+
 import {vec3, mat4} from 'gl-matrix';
+
+// var CameraControls = require('3d-view-controls');
 
 class Camera {
   // controls: any;

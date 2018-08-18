@@ -263,6 +263,9 @@ class ShaderProgram {
     }
 
     d.bindIdx();
+
+    gl.bindBuffer(gl.TRANSFORM_FEEDBACK_BUFFER, null);
+    
     if(isInstanced){
       gl.drawElementsInstanced(d.drawMode(), d.elemCount(), gl.UNSIGNED_INT, 0, numInstances);      
     }

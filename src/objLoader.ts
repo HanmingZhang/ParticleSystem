@@ -1,4 +1,7 @@
-import * as OBJLoader from 'obj-mtl-loader';
+// import * as OBJLoader from 'obj-mtl-loader';
+// import OBJLoader = require('obj-mtl-loader');
+
+var ObjMtlLoader = require("obj-mtl-loader");
 
 let tmp_vertices: number[][];
 let tmp_normals: number[][];
@@ -22,7 +25,7 @@ class Object {
     }
 
     create(filePath: string, callback: any){
-        var objMtlLoader = new OBJLoader();
+        var objMtlLoader = new ObjMtlLoader();
 
         tmp_vertices = this.vertices;
         tmp_normals = this.normals;
